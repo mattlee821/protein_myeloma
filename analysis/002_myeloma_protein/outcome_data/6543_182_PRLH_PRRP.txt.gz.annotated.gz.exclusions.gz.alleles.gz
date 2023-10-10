@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0131	0.603690	0.21919	0.025236	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/6543_182_PRLH_PRRP.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0025	0.921204	0.03564	0.025274	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/6543_182_PRLH_PRRP.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0015	0.859326	0.06584	0.008463	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/6543_182_PRLH_PRRP.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0013	0.878682	0.05617	0.008517	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/6543_182_PRLH_PRRP.txt.gz.unzipped	A	C	0.31640

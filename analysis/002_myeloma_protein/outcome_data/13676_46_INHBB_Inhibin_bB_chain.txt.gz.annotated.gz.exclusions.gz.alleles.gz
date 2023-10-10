@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0164	0.536277	0.27061	0.026518	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13676_46_INHBB_Inhibin_bB_chain.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0041	0.875885	0.05755	0.026250	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13676_46_INHBB_Inhibin_bB_chain.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0100	0.250140	0.60182	0.008696	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13676_46_INHBB_Inhibin_bB_chain.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0060	0.500728	0.30040	0.008911	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13676_46_INHBB_Inhibin_bB_chain.txt.gz.unzipped	A	C	0.31640

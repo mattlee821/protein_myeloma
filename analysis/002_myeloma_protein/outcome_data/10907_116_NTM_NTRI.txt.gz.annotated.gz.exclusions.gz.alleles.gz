@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0162	0.544464	0.26403	0.026729	35346	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10907_116_NTM_NTRI.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0100	0.704244	0.15228	0.026344	35341	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10907_116_NTM_NTRI.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0067	0.449716	0.34706	0.008864	35367	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10907_116_NTM_NTRI.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0086	0.337704	0.47146	0.008970	35367	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10907_116_NTM_NTRI.txt.gz.unzipped	A	C	0.31640

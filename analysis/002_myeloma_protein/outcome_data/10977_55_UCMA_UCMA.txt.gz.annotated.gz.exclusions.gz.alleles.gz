@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0237	0.369809	0.43202	0.026426	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10977_55_UCMA_UCMA.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0136	0.598443	0.22298	0.025824	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10977_55_UCMA_UCMA.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0007	0.933272	0.02999	0.008360	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10977_55_UCMA_UCMA.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0031	0.723975	0.14028	0.008778	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/10977_55_UCMA_UCMA.txt.gz.unzipped	A	C	0.31640

@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0191	0.448718	0.34803	0.025213	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15434_5_PNOC_PNOC.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0239	0.337481	0.47175	0.024918	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15434_5_PNOC_PNOC.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0034	0.681803	0.16634	0.008293	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15434_5_PNOC_PNOC.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0022	0.791424	0.10159	0.008319	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15434_5_PNOC_PNOC.txt.gz.unzipped	A	C	0.31640

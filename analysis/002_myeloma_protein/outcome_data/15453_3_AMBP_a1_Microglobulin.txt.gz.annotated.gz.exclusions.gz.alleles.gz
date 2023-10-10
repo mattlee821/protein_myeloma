@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0098	0.710185	0.14863	0.026372	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15453_3_AMBP_a1_Microglobulin.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0094	0.717584	0.14413	0.025989	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15453_3_AMBP_a1_Microglobulin.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0083	0.340651	0.46769	0.008710	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15453_3_AMBP_a1_Microglobulin.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0105	0.237957	0.62350	0.008897	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/15453_3_AMBP_a1_Microglobulin.txt.gz.unzipped	A	C	0.31640

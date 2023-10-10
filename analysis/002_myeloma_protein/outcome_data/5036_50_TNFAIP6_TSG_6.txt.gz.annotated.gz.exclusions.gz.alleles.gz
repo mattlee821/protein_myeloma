@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0474	0.056244	1.24992	0.024828	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5036_50_TNFAIP6_TSG_6.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0408	0.111811	0.95152	0.025659	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5036_50_TNFAIP6_TSG_6.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0056	0.494000	0.30627	0.008188	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5036_50_TNFAIP6_TSG_6.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0046	0.581833	0.23520	0.008353	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5036_50_TNFAIP6_TSG_6.txt.gz.unzipped	A	C	0.31640

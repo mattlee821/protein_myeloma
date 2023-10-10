@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0040	0.881532	0.05476	0.026841	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8429_16_AXIN2_AXIN2.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0014	0.956166	0.01947	0.025471	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8429_16_AXIN2_AXIN2.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0159	0.068904	1.16176	0.008741	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8429_16_AXIN2_AXIN2.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0165	0.064308	1.19173	0.008919	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8429_16_AXIN2_AXIN2.txt.gz.unzipped	A	C	0.31640

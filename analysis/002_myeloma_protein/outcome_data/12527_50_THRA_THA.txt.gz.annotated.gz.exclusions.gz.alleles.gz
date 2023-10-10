@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0043	0.864430	0.06327	0.025185	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12527_50_THRA_THA.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0142	0.571807	0.24275	0.025115	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12527_50_THRA_THA.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0052	0.538261	0.26901	0.008449	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12527_50_THRA_THA.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0097	0.254916	0.59360	0.008520	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12527_50_THRA_THA.txt.gz.unzipped	A	C	0.31640

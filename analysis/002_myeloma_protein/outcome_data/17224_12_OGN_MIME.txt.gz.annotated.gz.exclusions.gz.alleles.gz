@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0293	0.236756	0.62570	0.024765	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17224_12_OGN_MIME.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0484	0.047944	1.31927	0.024471	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17224_12_OGN_MIME.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0073	0.371214	0.43038	0.008164	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17224_12_OGN_MIME.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0093	0.263787	0.57875	0.008322	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17224_12_OGN_MIME.txt.gz.unzipped	A	C	0.31640

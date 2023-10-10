@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0012	0.962670	0.01652	0.025639	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3581_53_AHSG_a2_HS_Glycoprotein.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0319	0.220476	0.65664	0.026035	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3581_53_AHSG_a2_HS_Glycoprotein.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0015	0.863865	0.06355	0.008749	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3581_53_AHSG_a2_HS_Glycoprotein.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0025	0.781346	0.10716	0.009007	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3581_53_AHSG_a2_HS_Glycoprotein.txt.gz.unzipped	A	C	0.31640

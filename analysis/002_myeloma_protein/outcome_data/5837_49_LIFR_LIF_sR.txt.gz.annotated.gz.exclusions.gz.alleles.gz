@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0074	0.781323	0.10717	0.026658	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5837_49_LIFR_LIF_sR.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0133	0.611455	0.21364	0.026181	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5837_49_LIFR_LIF_sR.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0025	0.777864	0.10910	0.008862	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5837_49_LIFR_LIF_sR.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0032	0.717355	0.14427	0.008840	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5837_49_LIFR_LIF_sR.txt.gz.unzipped	A	C	0.31640

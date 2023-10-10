@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0143	0.585003	0.23284	0.026186	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5335_73_ANXA6_annexin_VI.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0221	0.394017	0.40449	0.025928	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5335_73_ANXA6_annexin_VI.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0056	0.516930	0.28657	0.008641	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5335_73_ANXA6_annexin_VI.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0026	0.770343	0.11332	0.008906	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5335_73_ANXA6_annexin_VI.txt.gz.unzipped	A	C	0.31640

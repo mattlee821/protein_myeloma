@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0309	0.233868	0.63103	0.025956	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3868_8_SGTA_SGTA.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0110	0.669049	0.17454	0.025734	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3868_8_SGTA_SGTA.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0029	0.737444	0.13227	0.008651	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3868_8_SGTA_SGTA.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0022	0.798242	0.09787	0.008606	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3868_8_SGTA_SGTA.txt.gz.unzipped	A	C	0.31640

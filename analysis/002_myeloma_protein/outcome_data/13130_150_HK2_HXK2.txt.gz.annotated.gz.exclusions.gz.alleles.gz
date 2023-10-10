@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0022	0.931183	0.03096	0.025476	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13130_150_HK2_HXK2.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0110	0.669061	0.17453	0.025735	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13130_150_HK2_HXK2.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0076	0.377037	0.42362	0.008603	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13130_150_HK2_HXK2.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0032	0.714195	0.14618	0.008738	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13130_150_HK2_HXK2.txt.gz.unzipped	A	C	0.31640

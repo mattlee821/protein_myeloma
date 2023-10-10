@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0475	0.068569	1.16387	0.026081	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11369_23_ADH5_ADHX.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0373	0.147610	0.83088	0.025759	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11369_23_ADH5_ADHX.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0043	0.620899	0.20698	0.008694	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11369_23_ADH5_ADHX.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0053	0.542517	0.26559	0.008703	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11369_23_ADH5_ADHX.txt.gz.unzipped	A	C	0.31640

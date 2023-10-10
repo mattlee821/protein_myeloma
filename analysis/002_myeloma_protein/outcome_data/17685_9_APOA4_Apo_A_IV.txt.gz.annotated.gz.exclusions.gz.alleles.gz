@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0006	0.980326	0.00863	0.024331	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17685_9_APOA4_Apo_A_IV.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0015	0.952279	0.02124	0.025065	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17685_9_APOA4_Apo_A_IV.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0075	0.382233	0.41767	0.008583	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17685_9_APOA4_Apo_A_IV.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0074	0.402263	0.39549	0.008835	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17685_9_APOA4_Apo_A_IV.txt.gz.unzipped	A	C	0.31640

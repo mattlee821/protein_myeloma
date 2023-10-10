@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0352	0.170880	0.76731	0.025705	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11350_30_STUB1_CHIP.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0249	0.326092	0.48666	0.025356	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11350_30_STUB1_CHIP.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0091	0.284594	0.54577	0.008504	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11350_30_STUB1_CHIP.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0126	0.143644	0.84271	0.008616	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11350_30_STUB1_CHIP.txt.gz.unzipped	A	C	0.31640

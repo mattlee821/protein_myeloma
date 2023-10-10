@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0127	0.617504	0.20936	0.025431	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18926_7_PSMA3_PSA3.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0062	0.802703	0.09545	0.024815	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18926_7_PSMA3_PSA3.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0013	0.876667	0.05717	0.008377	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18926_7_PSMA3_PSA3.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0009	0.914291	0.03892	0.008362	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18926_7_PSMA3_PSA3.txt.gz.unzipped	A	C	0.31640

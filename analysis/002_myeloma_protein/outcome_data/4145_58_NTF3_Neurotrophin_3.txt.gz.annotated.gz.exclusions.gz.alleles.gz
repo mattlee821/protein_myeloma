@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0411	0.107776	0.96748	0.025555	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4145_58_NTF3_Neurotrophin_3.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0050	0.842739	0.07431	0.025203	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4145_58_NTF3_Neurotrophin_3.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0095	0.257405	0.58938	0.008388	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4145_58_NTF3_Neurotrophin_3.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0082	0.341218	0.46697	0.008616	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4145_58_NTF3_Neurotrophin_3.txt.gz.unzipped	A	C	0.31640

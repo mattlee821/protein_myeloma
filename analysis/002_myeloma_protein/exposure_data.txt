@@ -1,0 +1,5 @@
+SNP	pval.exposure	chr.exposure	pos.exposure	effect_allele.exposure	other_allele.exposure	eaf.exposure	beta.exposure	se.exposure	exposure	mr_keep.exposure	pval_origin.exposure	id.exposure	data_source.exposure	f_stats
+rs147320931	4e-07	2	146278709	C	T	0.027849	0.00144011	0.000283978	ieu-b-4957	TRUE	reported	ieu-b-4957	textfile	25.7170968123226
+rs4487645	1.7e-07	7	21938240	A	C	0.341592	-0.000513701	9.82621e-05	ieu-b-4957	TRUE	reported	ieu-b-4957	textfile	27.3305731587525
+rs12354744	3.89996e-07	10	67289706	G	A	0.026427	0.00147538	0.000290831	ieu-b-4957	TRUE	reported	ieu-b-4957	textfile	25.7351314396033
+rs56333627	3.235e-10	7	21939032	A	C	0.3254	-0.2401	0.0382	myeloma_meta-analysis	TRUE	reported	myeloma_meta-analysis	textfile	39.5055028645048

@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0155	0.545887	0.26290	0.025665	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14197_2_PRDM1_PRDM1.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0048	0.849327	0.07093	0.025266	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14197_2_PRDM1_PRDM1.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0032	0.706177	0.15109	0.008488	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14197_2_PRDM1_PRDM1.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0075	0.387089	0.41219	0.008671	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14197_2_PRDM1_PRDM1.txt.gz.unzipped	A	C	0.31640

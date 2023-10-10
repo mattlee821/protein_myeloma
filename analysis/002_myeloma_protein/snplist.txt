@@ -1,0 +1,5 @@
+exposure_data$SNP
+rs147320931
+rs4487645
+rs12354744
+rs56333627

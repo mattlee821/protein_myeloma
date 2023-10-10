@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0463	0.075149	1.12408	0.026018	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9762_14_VASP_VASP.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0280	0.274951	0.56074	0.025647	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9762_14_VASP_VASP.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0018	0.836266	0.07766	0.008709	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9762_14_VASP_VASP.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0006	0.946544	0.02386	0.008949	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9762_14_VASP_VASP.txt.gz.unzipped	A	C	0.31640

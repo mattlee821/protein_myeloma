@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0127	0.622901	0.20558	0.025826	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3805_16_ESM1_Endocan.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0124	0.628763	0.20151	0.025648	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3805_16_ESM1_Endocan.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0050	0.561604	0.25057	0.008614	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3805_16_ESM1_Endocan.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0032	0.709320	0.14916	0.008584	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/3805_16_ESM1_Endocan.txt.gz.unzipped	A	C	0.31640

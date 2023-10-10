@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0230	0.358072	0.44603	0.025026	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5265_12_GRAP2_GRB2_related_adapter_protein_2.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0265	0.284057	0.54659	0.024737	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5265_12_GRAP2_GRB2_related_adapter_protein_2.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0081	0.327552	0.48472	0.008273	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5265_12_GRAP2_GRB2_related_adapter_protein_2.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0056	0.508420	0.29378	0.008468	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5265_12_GRAP2_GRB2_related_adapter_protein_2.txt.gz.unzipped	A	C	0.31640

@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0295	0.250947	0.60042	0.025696	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/2505_49_GFRA3_GFRa_3.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0197	0.436988	0.35953	0.025344	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/2505_49_GFRA3_GFRa_3.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0036	0.672635	0.17222	0.008520	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/2505_49_GFRA3_GFRa_3.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0002	0.985146	0.00650	0.010742	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/2505_49_GFRA3_GFRa_3.txt.gz.unzipped	A	C	0.31640

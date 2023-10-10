@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0209	0.409150	0.38812	0.025321	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13089_6_HIF1A_HIF_1a.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0128	0.607757	0.21627	0.024938	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13089_6_HIF1A_HIF_1a.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0066	0.427321	0.36925	0.008315	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13089_6_HIF1A_HIF_1a.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0058	0.495966	0.30455	0.008519	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13089_6_HIF1A_HIF_1a.txt.gz.unzipped	A	C	0.31640

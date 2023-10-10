@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0220	0.392608	0.40604	0.025734	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14153_8_EFNA3_Ephrin_A3.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0123	0.628419	0.20175	0.025416	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14153_8_EFNA3_Ephrin_A3.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0039	0.649463	0.18745	0.008581	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14153_8_EFNA3_Ephrin_A3.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0037	0.666115	0.17645	0.008575	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/14153_8_EFNA3_Ephrin_A3.txt.gz.unzipped	A	C	0.31640

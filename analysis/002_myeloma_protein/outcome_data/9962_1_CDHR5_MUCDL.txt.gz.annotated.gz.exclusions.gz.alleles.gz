@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0250	0.330906	0.48030	0.025712	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9962_1_CDHR5_MUCDL.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0146	0.564148	0.24861	0.025317	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9962_1_CDHR5_MUCDL.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0030	0.719711	0.14284	0.008360	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9962_1_CDHR5_MUCDL.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0012	0.892921	0.04919	0.008915	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9962_1_CDHR5_MUCDL.txt.gz.unzipped	A	C	0.31640

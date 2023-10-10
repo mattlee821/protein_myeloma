@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0135	0.591314	0.22818	0.025143	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12931_16_NR3C2_MCR.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0112	0.654102	0.18435	0.024996	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12931_16_NR3C2_MCR.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0026	0.756328	0.12129	0.008379	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12931_16_NR3C2_MCR.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0013	0.878569	0.05622	0.008509	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12931_16_NR3C2_MCR.txt.gz.unzipped	A	C	0.31640

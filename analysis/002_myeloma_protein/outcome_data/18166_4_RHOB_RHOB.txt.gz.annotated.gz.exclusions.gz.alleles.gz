@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0389	0.131911	0.87972	0.025820	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18166_4_RHOB_RHOB.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0110	0.667304	0.17568	0.025590	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18166_4_RHOB_RHOB.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0065	0.447519	0.34919	0.008558	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18166_4_RHOB_RHOB.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0082	0.347187	0.45944	0.008723	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/18166_4_RHOB_RHOB.txt.gz.unzipped	A	C	0.31640

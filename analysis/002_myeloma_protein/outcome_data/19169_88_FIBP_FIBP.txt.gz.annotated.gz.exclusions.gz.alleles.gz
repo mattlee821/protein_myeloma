@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0342	0.185870	0.73079	0.025852	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19169_88_FIBP_FIBP.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0202	0.428235	0.36832	0.025498	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19169_88_FIBP_FIBP.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0033	0.697738	0.15631	0.008497	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19169_88_FIBP_FIBP.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0029	0.738952	0.13138	0.008702	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19169_88_FIBP_FIBP.txt.gz.unzipped	A	C	0.31640

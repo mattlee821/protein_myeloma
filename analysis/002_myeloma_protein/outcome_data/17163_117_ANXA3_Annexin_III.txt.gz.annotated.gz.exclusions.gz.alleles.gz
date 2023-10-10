@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0013	0.960305	0.01759	0.026120	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17163_117_ANXA3_Annexin_III.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0132	0.596219	0.22459	0.024913	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17163_117_ANXA3_Annexin_III.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0097	0.244810	0.61117	0.008340	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17163_117_ANXA3_Annexin_III.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0116	0.170414	0.76849	0.008462	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17163_117_ANXA3_Annexin_III.txt.gz.unzipped	A	C	0.31640

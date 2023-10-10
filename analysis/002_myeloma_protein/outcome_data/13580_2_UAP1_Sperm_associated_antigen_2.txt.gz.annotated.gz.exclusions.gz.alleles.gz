@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0218	0.385170	0.41435	0.025103	35351	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13580_2_UAP1_Sperm_associated_antigen_2.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0210	0.396242	0.40204	0.024754	35346	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13580_2_UAP1_Sperm_associated_antigen_2.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0042	0.608362	0.21584	0.008197	35372	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13580_2_UAP1_Sperm_associated_antigen_2.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0086	0.308370	0.51093	0.008443	35372	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13580_2_UAP1_Sperm_associated_antigen_2.txt.gz.unzipped	A	C	0.31640

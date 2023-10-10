@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0095	0.724333	0.14006	0.026937	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8231_122_FLT1_VEGF_sR1.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0184	0.489449	0.31029	0.026621	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8231_122_FLT1_VEGF_sR1.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0078	0.379997	0.42022	0.008885	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8231_122_FLT1_VEGF_sR1.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0078	0.391205	0.40760	0.009097	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8231_122_FLT1_VEGF_sR1.txt.gz.unzipped	A	C	0.31640

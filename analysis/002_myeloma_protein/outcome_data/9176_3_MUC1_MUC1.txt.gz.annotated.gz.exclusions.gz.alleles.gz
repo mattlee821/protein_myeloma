@@ -1,0 +1,4 @@
+chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0211	0.410436	0.38675	0.025634	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9176_3_MUC1_MUC1.txt.gz.unzipped	G	A	0.02508
+chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0105	0.677224	0.16927	0.025225	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9176_3_MUC1_MUC1.txt.gz.unzipped	C	T	0.02541
+chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0059	0.484917	0.31433	0.008448	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9176_3_MUC1_MUC1.txt.gz.unzipped	A	!	0.34044
+chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0105	0.225312	0.64722	0.008660	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9176_3_MUC1_MUC1.txt.gz.unzipped	A	C	0.31640
