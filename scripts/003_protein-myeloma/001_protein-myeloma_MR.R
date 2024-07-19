@@ -34,6 +34,7 @@ write.table(data_outcome, "analysis/003_protein_myeloma/data_outcome.txt",
 
 ## harmonize data ====
 data_harmonise <- harmonise_data(data_exposure, data_outcome, action = 2)
+data_harmonise <- subset(data_harmonise, SNP_index == 1) # drop duplicate SNP from proxy search
 write.table(data_harmonise, "analysis/003_protein_myeloma/data_harmonise.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
