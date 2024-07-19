@@ -36,15 +36,17 @@ for (FILE in LIST_FILES){
                              snp_col = "SNP", 
                              beta_col = "BETA", 
                              se_col = "SE", 
-                             pval_col = "P", log_pval = TRUE,
                              eaf_col = "EAF", 
                              effect_allele_col = "EA", 
                              other_allele_col = "OA", 
                              chr_col = "CHR", 
                              pos_col = "POS",
                              samplesize_col = "N")
-  data$id.exposure <- paste0(data$exposure, ";", label)
-  list_data <- append(list_data, list(data))
+  data$pval.exposure[data$pval.exposure == 0] <- 5e-8
+  data$pval.exposure[data$pval.exposure == 0.000e+00] <- 5e-8
+  data$exposure <- paste0(data$exposure, ";", label)
+  data$chr.exposure <- gsub("chr", "", data$chr.exposure)
+  list_data <- c(list_data, list(data))
 }
 
 # combine ====

@@ -25,8 +25,6 @@ data_exposure1 <- read_exposure_data("/data/GWAS_data/work/myeloma/myeloma_combi
                                      chr_col = "CHR",
                                      pos_col = "POS", 
                                      phenotype_col = "phenotype", id_col = "phenotype")
-data_exposure1$exposure <- data_exposure1$exposure
-
 ### subset
 a <- subset(data_exposure1, pval.exposure <= 5e-8)
 b <- subset(data_exposure1, pval.exposure <= 5e-7)
@@ -68,8 +66,6 @@ data_exposure2 <- read_exposure_data("/data/GWAS_data/work/myeloma/myeloma_combi
                                      chr_col = "CHR",
                                      pos_col = "POS", 
                                      phenotype_col = "phenotype", id_col = "phenotype")
-data_exposure2$exposure <- data_exposure2$exposure
-
 ### subset
 a <- subset(data_exposure2, pval.exposure <= 5e-8)
 b <- subset(data_exposure2, pval.exposure <= 5e-7)
@@ -77,7 +73,6 @@ c <- subset(data_exposure2, pval.exposure <= 5e-6)
 nrow(a) # 5
 nrow(b) # 26
 nrow(c) # 133
-
 ###
 data_exposure <- subset(data_exposure2, pval.exposure <= 5e-8)
 data_exposure$f_stats <- (data_exposure$beta.exposure / data_exposure$se.exposure)^2 
@@ -112,8 +107,6 @@ data_exposure3 <- read_exposure_data("/data/GWAS_data/work/myeloma/myeloma_combi
                                      chr_col = "CHR",
                                      pos_col = "POS", 
                                      phenotype_col = "phenotype", id_col = "phenotype")
-data_exposure3$exposure <- data_exposure3$exposure
-
 ### subset
 a <- subset(data_exposure3, pval.exposure <= 5e-8)
 b <- subset(data_exposure3, pval.exposure <= 5e-7)
@@ -158,8 +151,6 @@ data_exposure4 <- read_exposure_data("/data/GWAS_data/work/myeloma/myeloma_combi
                                      chr_col = "CHR",
                                      pos_col = "POS", 
                                      phenotype_col = "phenotype", id_col = "phenotype")
-data_exposure4$exposure <- data_exposure4$exposure
-
 ### subset
 a <- subset(data_exposure4, pval.exposure <= 5e-8)
 b <- subset(data_exposure4, pval.exposure <= 5e-7)
@@ -167,7 +158,6 @@ c <- subset(data_exposure4, pval.exposure <= 5e-6)
 nrow(a) # 5
 nrow(b) # 3
 nrow(c) # 63
-
 ###
 data_exposure <- subset(data_exposure4, pval.exposure <= 5e-8)
 data_exposure$f_stats <- (data_exposure$beta.exposure / data_exposure$se.exposure)^2 
@@ -211,7 +201,6 @@ data_exposure4$chr.exposure <- as.character(data_exposure4$chr.exposure)
 data_exposure <- bind_rows(data_exposure1, data_exposure2, data_exposure3, data_exposure4)
 write.table(data_exposure, "analysis/001_instruments/instruments-cancer.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
-
 ## make snplist 
 data <- select(data_exposure, SNP)
 write.table(data, "analysis/001_instruments/snplist-cancer.txt", 
