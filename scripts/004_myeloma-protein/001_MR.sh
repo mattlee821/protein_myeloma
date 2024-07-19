@@ -6,5 +6,5 @@
 #SBATCH --time=5-10:0:00
 #SBATCH --mem=100000M
 
-cd ~/001_projects/protein_myeloma/
+cd /data/MET_share/work/001_projects/protein_myeloma/
 Rscript scripts/004_myeloma-protein/001_MR.R          
