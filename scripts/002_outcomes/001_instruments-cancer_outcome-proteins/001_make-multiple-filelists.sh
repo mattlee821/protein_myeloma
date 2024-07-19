@@ -14,17 +14,19 @@ cd filelist
 
 # make file list combining ukb and ferkingstad protein GWAS files ====
 rm filelist*
-ls /data/GWAS_data/work/UKB_PPP/european/*gz > filelist-ukb
+ls /data/GWAS_data/work/UKB_PPP/european/*gz > filelist-ukb-eu
+ls /data/GWAS_data/work/UKB_PPP/combined/*gz > filelist-ukb-combined
 ls /data/GWAS_data/work/ferkingstad_2021_PMID34857953/GWAS/*gz > filelist-ferkingstad
+wc -l filelist-ukb-eu
+wc -l filelist-ukb-combined
 wc -l filelist-ferkingstad
-wc -l filelist-ukb
-cat filelist-ukb filelist-ferkingstad > filelist
+cat filelist-ukb-eu filelist-ukb-combined filelist-ferkingstad > filelist
 wc -l filelist
-rm filelist-ukb filelist-ferkingstad
+rm filelist-ukb-eu filelist-ukb-combined filelist-ferkingstad
 
 # set number of protein files to split ====
 # adjust "lines_per_file" based on number of protein files, "wc -l filelist-ferkingstad" + "wc -l filelist-ukb"
-lines_per_file=$(((7847 / 99)+1))
+lines_per_file=$((($(wc -l < filelist) / 99) + 1))
 echo $lines_per_file
 
 # split to create the new files  ====

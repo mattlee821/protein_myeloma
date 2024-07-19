@@ -10,15 +10,24 @@
 # set directory ====
 export SNP_LIST=~/001_projects/protein_myeloma/analysis/001_instruments/snplist-cancer.txt
 export OUTCOMES=~/001_projects/protein_myeloma/analysis/002_outcomes/filelist/
-
-cd ${OUTCOMES}
+cd "${OUTCOMES}" || exit
 
 tmp=$(mktemp) || { ret="$?"; printf 'Failed to create temp file\n'; exit "$ret"; }
 VAR1=filelist-44
-  
-for file in $(cat "$VAR1"); do
-  echo "running $(basename "$file")"
-  zgrep -w -F -f "$SNP_LIST" "$file" > "$tmp" &&
-  mv -- "$tmp" "${OUTCOMES}$(basename "$file")"
-  echo "finished $(basename "$file")"
+
+for filelist in $VAR1; do
+  while IFS= read -r file; do
+    echo "running $(basename "$file")"
+    directory=$(dirname "$file")
+    if [[ $directory == *"european"* ]]; then
+      output_name="${OUTCOMES}$(basename "$file")_european.txt"
+    elif [[ $directory == *"combined"* ]]; then
+      output_name="${OUTCOMES}$(basename "$file")_combined.txt"
+    else
+      output_name="${OUTCOMES}$(basename "$file")_DECODE.txt"
+    fi
+    zgrep -w -F -f "$SNP_LIST" "$file" > "$tmp" &&
+    mv -- "$tmp" "$output_name"
+    echo "finished $(basename "$file")"
+  done < "$filelist"
 done
