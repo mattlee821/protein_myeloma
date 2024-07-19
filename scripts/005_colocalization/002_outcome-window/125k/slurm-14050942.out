@@ -1,0 +1,20 @@
+TwoSampleMR version 0.5.9 
+[>] New: Option to use non-European LD reference panels for clumping etc
+[>] Some studies temporarily quarantined to verify effect allele
+[>] See news(package='TwoSampleMR') and https://gwas.mrcieu.ac.uk for further details
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+

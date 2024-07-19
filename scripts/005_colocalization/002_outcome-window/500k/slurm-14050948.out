@@ -1,0 +1,104 @@
+TwoSampleMR version 0.5.9 
+[>] New: Option to use non-European LD reference panels for clumping etc
+[>] Some studies temporarily quarantined to verify effect allele
+[>] See news(package='TwoSampleMR') and https://gwas.mrcieu.ac.uk for further details
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+In .fun(piece, ...) :
+  Duplicated SNPs present in exposure data for phenotype 'myeloma-finngen. Just keeping the first instance:
+rs1432725620
+rs2977607
+rs9697378
+rs28833197
+rs61769717
+rs566461417
+rs548428268
+rs6605069
+rs574702869
+rs71576591
+rs28758798
+rs567291560
+rs6697379
+rs9442374
+rs779393016
+rs4970419
+rs532816378
+rs77668548
+rs569235398
+rs6657544
+rs12564852
+rs11260579
+rs2273275
+rs114257304
+rs145370195
+rs145983033
+rs2242398
+rs146981251
+rs34442823
+rs112328758
+rs753950191
+rs942962515
+rs188574574
+rs182629583
+rs9442407
+rs1352733909
+rs1331221753
+rs184585643
+rs34721906
+rs143873357
+rs11260623
+rs6603805
+rs2490541
+rs28657980
+rs72636304
+rs138452702
+rs138452702
+rs151248761
+rs151248761
+rs6698965
+rs72927851
+rs11589451
+rs2645072
+rs12085089
+rs573923733
+rs142843774
+rs79135689
+rs2257763
+rs57553700
+rs4310388
+rs6656067
+rs75559052
+rs34795251
+rs142722390
+rs7339938
+rs937486
+rs979419
+rs11260659
+rs35683655
+rs11121206
+rs1287621
+rs111902685
+rs61762130
+rs75886247
+rs61760774
+rs2250582
+rs139805306
+rs146649508
+rs2281304
+rs2235791
+rs4908 [... truncated]
