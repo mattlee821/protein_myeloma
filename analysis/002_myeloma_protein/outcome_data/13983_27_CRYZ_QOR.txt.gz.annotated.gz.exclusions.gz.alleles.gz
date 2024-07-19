@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0263	0.259387	0.58605	0.023319	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13983_27_CRYZ_QOR.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0237	0.303288	0.51814	0.023023	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13983_27_CRYZ_QOR.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0141	0.066219	1.17902	0.007676	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13983_27_CRYZ_QOR.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0119	0.129340	0.88827	0.007846	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13983_27_CRYZ_QOR.txt.gz.unzipped	A	C	0.31640

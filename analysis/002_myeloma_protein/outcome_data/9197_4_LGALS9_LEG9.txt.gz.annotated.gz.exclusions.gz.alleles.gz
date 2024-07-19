@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0244	0.346371	0.46046	0.025912	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9197_4_LGALS9_LEG9.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0043	0.867235	0.06186	0.025722	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9197_4_LGALS9_LEG9.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0051	0.551501	0.25845	0.008564	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9197_4_LGALS9_LEG9.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0088	0.313580	0.50365	0.008732	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9197_4_LGALS9_LEG9.txt.gz.unzipped	A	C	0.31640

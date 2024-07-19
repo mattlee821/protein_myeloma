@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0458	0.076517	1.11624	0.025857	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9826_135_FHIT_Fragile_histidine_triad_protein.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0129	0.612909	0.21260	0.025498	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9826_135_FHIT_Fragile_histidine_triad_protein.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0013	0.878526	0.05625	0.008506	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9826_135_FHIT_Fragile_histidine_triad_protein.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0007	0.931464	0.03083	0.008139	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/9826_135_FHIT_Fragile_histidine_triad_protein.txt.gz.unzipped	A	C	0.31640

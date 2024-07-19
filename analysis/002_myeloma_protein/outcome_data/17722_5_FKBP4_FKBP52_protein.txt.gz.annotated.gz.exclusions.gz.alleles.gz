@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0372	0.148986	0.82685	0.025777	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17722_5_FKBP4_FKBP52_protein.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0218	0.391776	0.40696	0.025455	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17722_5_FKBP4_FKBP52_protein.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0080	0.345551	0.46149	0.008481	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17722_5_FKBP4_FKBP52_protein.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0086	0.322584	0.49136	0.008694	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/17722_5_FKBP4_FKBP52_protein.txt.gz.unzipped	A	C	0.31640

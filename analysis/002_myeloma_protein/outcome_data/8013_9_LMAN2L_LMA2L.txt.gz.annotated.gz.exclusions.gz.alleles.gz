@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0366	0.144243	0.84091	0.025066	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8013_9_LMAN2L_LMA2L.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0445	0.072527	1.13950	0.024780	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8013_9_LMAN2L_LMA2L.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0045	0.589930	0.22920	0.008350	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8013_9_LMAN2L_LMA2L.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0002	0.980689	0.00847	0.008263	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8013_9_LMAN2L_LMA2L.txt.gz.unzipped	A	C	0.31640

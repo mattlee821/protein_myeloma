@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0336	0.191005	0.71896	0.025696	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5490_53_SPOCK1_Testican_1.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0228	0.368217	0.43390	0.025338	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5490_53_SPOCK1_Testican_1.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0009	0.917514	0.03739	0.008690	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5490_53_SPOCK1_Testican_1.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0015	0.864666	0.06315	0.008801	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5490_53_SPOCK1_Testican_1.txt.gz.unzipped	A	C	0.31640

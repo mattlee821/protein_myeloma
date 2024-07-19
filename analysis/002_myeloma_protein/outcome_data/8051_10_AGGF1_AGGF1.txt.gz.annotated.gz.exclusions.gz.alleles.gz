@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0002	0.993096	0.00301	0.023113	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8051_10_AGGF1_AGGF1.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0117	0.638511	0.19483	0.024905	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8051_10_AGGF1_AGGF1.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0007	0.932709	0.03025	0.008290	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8051_10_AGGF1_AGGF1.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0000	0.996955	0.00132	0.007845	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8051_10_AGGF1_AGGF1.txt.gz.unzipped	A	C	0.31640

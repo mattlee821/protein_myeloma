@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0374	0.152905	0.81558	0.026166	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12675_14_DARS_SYDC.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0058	0.822657	0.08478	0.025878	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12675_14_DARS_SYDC.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0086	0.320549	0.49411	0.008658	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12675_14_DARS_SYDC.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0067	0.448329	0.34840	0.008837	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/12675_14_DARS_SYDC.txt.gz.unzipped	A	C	0.31640

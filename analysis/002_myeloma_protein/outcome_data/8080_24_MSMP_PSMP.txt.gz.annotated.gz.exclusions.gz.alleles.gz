@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0334	0.210197	0.67737	0.026656	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8080_24_MSMP_PSMP.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0330	0.209096	0.67965	0.026273	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8080_24_MSMP_PSMP.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0111	0.204752	0.68877	0.008753	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8080_24_MSMP_PSMP.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0083	0.354383	0.45053	0.008962	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8080_24_MSMP_PSMP.txt.gz.unzipped	A	C	0.31640

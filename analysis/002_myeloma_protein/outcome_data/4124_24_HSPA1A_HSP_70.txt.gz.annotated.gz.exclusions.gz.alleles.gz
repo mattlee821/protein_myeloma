@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0273	0.292283	0.53420	0.025923	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4124_24_HSPA1A_HSP_70.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0085	0.740145	0.13068	0.025629	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4124_24_HSPA1A_HSP_70.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0008	0.929986	0.03152	0.009105	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4124_24_HSPA1A_HSP_70.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0045	0.601777	0.22056	0.008623	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4124_24_HSPA1A_HSP_70.txt.gz.unzipped	A	C	0.31640

@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0360	0.159922	0.79609	0.025617	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11368_32_AK2_KAD2.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0203	0.422037	0.37465	0.025284	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11368_32_AK2_KAD2.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0064	0.446683	0.35000	0.008410	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11368_32_AK2_KAD2.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0057	0.507809	0.29430	0.008607	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11368_32_AK2_KAD2.txt.gz.unzipped	A	C	0.31640

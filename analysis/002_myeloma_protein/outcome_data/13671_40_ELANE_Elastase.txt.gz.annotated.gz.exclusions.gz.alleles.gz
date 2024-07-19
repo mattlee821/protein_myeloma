@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0249	0.363147	0.43992	0.027381	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13671_40_ELANE_Elastase.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0025	0.925213	0.03376	0.026633	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13671_40_ELANE_Elastase.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0024	0.793936	0.10021	0.009188	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13671_40_ELANE_Elastase.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0010	0.914383	0.03887	0.009301	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13671_40_ELANE_Elastase.txt.gz.unzipped	A	C	0.31640

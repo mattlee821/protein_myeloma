@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0315	0.221091	0.65543	0.025743	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5440_26_TNNI2_Troponin_I__skeletal__fast_twitch.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0310	0.222768	0.65215	0.025426	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5440_26_TNNI2_Troponin_I__skeletal__fast_twitch.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0066	0.439233	0.35731	0.008533	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5440_26_TNNI2_Troponin_I__skeletal__fast_twitch.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0038	0.660485	0.18014	0.008651	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/5440_26_TNNI2_Troponin_I__skeletal__fast_twitch.txt.gz.unzipped	A	C	0.31640

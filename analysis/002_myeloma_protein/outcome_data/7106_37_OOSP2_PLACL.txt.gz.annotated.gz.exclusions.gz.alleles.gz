@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0222	0.383019	0.41678	0.025449	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7106_37_OOSP2_PLACL.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0291	0.246830	0.60760	0.025128	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7106_37_OOSP2_PLACL.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0005	0.948608	0.02291	0.007757	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7106_37_OOSP2_PLACL.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0036	0.677377	0.16917	0.008653	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7106_37_OOSP2_PLACL.txt.gz.unzipped	A	C	0.31640

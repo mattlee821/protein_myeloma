@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0409	0.121472	0.91552	0.026411	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/16908_5_OMG_OMGP.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0304	0.243302	0.61385	0.026055	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/16908_5_OMG_OMGP.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0015	0.860143	0.06543	0.008513	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/16908_5_OMG_OMGP.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0036	0.686671	0.16325	0.008925	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/16908_5_OMG_OMGP.txt.gz.unzipped	A	C	0.31640

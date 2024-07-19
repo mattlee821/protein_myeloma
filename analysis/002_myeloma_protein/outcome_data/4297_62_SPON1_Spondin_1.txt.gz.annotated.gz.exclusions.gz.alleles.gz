@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0105	0.692982	0.15928	0.026595	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4297_62_SPON1_Spondin_1.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0213	0.414977	0.38198	0.026130	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4297_62_SPON1_Spondin_1.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0085	0.329347	0.48235	0.008714	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4297_62_SPON1_Spondin_1.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0082	0.356170	0.44834	0.008887	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4297_62_SPON1_Spondin_1.txt.gz.unzipped	A	C	0.31640

@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0436	0.079725	1.09841	0.024882	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4464_10_SIGLEC1_Sialoadhesin.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0152	0.536788	0.27020	0.024608	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4464_10_SIGLEC1_Sialoadhesin.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0099	0.225504	0.64685	0.008168	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4464_10_SIGLEC1_Sialoadhesin.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0090	0.280615	0.55189	0.008342	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4464_10_SIGLEC1_Sialoadhesin.txt.gz.unzipped	A	C	0.31640

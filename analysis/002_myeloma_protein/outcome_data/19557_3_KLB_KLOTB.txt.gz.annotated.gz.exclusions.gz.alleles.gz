@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0031	0.900834	0.04536	0.024878	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19557_3_KLB_KLOTB.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0075	0.761521	0.11832	0.024713	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19557_3_KLB_KLOTB.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0047	0.570157	0.24401	0.008277	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19557_3_KLB_KLOTB.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0015	0.861237	0.06488	0.008581	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/19557_3_KLB_KLOTB.txt.gz.unzipped	A	C	0.31640

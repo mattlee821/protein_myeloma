@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0376	0.130631	0.88395	0.024874	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13694_24_CRLF2_TSLP_R.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0122	0.620282	0.20741	0.024624	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13694_24_CRLF2_TSLP_R.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0000	0.995771	0.00184	0.007759	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13694_24_CRLF2_TSLP_R.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0032	0.706450	0.15092	0.008496	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13694_24_CRLF2_TSLP_R.txt.gz.unzipped	A	C	0.31640

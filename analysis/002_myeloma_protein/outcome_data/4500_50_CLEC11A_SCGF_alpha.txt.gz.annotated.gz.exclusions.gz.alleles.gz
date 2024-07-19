@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0146	0.583306	0.23410	0.026615	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4500_50_CLEC11A_SCGF_alpha.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0085	0.744896	0.12790	0.026124	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4500_50_CLEC11A_SCGF_alpha.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0019	0.831716	0.08002	0.008941	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4500_50_CLEC11A_SCGF_alpha.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0019	0.833196	0.07925	0.009022	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4500_50_CLEC11A_SCGF_alpha.txt.gz.unzipped	A	C	0.31640

@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0315	0.218694	0.66016	0.025610	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4973_18_BIRC3_cIAP_2.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0101	0.688091	0.16235	0.025159	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4973_18_BIRC3_cIAP_2.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0002	0.977439	0.00991	0.007072	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4973_18_BIRC3_cIAP_2.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0051	0.550139	0.25953	0.008535	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/4973_18_BIRC3_cIAP_2.txt.gz.unzipped	A	C	0.31640

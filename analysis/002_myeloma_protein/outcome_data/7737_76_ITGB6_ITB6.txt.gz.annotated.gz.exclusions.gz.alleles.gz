@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0047	0.850105	0.07053	0.024870	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7737_76_ITGB6_ITB6.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	-0.0249	0.312408	0.50528	0.024649	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7737_76_ITGB6_ITB6.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0106	0.199314	0.70046	0.008259	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7737_76_ITGB6_ITB6.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0095	0.259207	0.58635	0.008420	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/7737_76_ITGB6_ITB6.txt.gz.unzipped	A	C	0.31640

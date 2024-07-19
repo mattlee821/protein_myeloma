@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0069	0.778751	0.10860	0.024560	35351	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13486_9_PKD2_PKD2.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0319	0.190558	0.71997	0.024371	35346	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13486_9_PKD2_PKD2.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0023	0.777794	0.10914	0.008150	35372	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13486_9_PKD2_PKD2.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	0.0052	0.531801	0.27425	0.008317	35372	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/13486_9_PKD2_PKD2.txt.gz.unzipped	A	C	0.31640

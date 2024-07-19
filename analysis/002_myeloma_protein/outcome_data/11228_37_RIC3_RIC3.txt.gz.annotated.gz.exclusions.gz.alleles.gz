@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0006	0.982652	0.00760	0.027594	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11228_37_RIC3_RIC3.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0196	0.436402	0.36011	0.025184	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11228_37_RIC3_RIC3.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0074	0.381947	0.41800	0.008464	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11228_37_RIC3_RIC3.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0124	0.150299	0.82304	0.008620	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11228_37_RIC3_RIC3.txt.gz.unzipped	A	C	0.31640

@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	-0.0220	0.388416	0.41070	0.025507	35357	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8867_18_PAEP_Glycodelin.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0138	0.583200	0.23418	0.025150	35352	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8867_18_PAEP_Glycodelin.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	0.0008	0.920880	0.03580	0.008054	35378	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8867_18_PAEP_Glycodelin.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0026	0.764258	0.11676	0.008670	35378	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/8867_18_PAEP_Glycodelin.txt.gz.unzipped	A	C	0.31640

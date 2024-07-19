@@ -1,4 +1,0 @@
-chr10	65529948	chr10:65529948:G:A	rs12354744	G	A	0.0068	0.787361	0.10383	0.025210	35348	0.02508	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11365_17_TENM4_TEN4.txt.gz.unzipped	G	A	0.02508
-chr2	145521141	chr2:145521141:C:T	rs147320931	C	T	0.0185	0.460478	0.33679	0.025066	35343	0.02541	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11365_17_TENM4_TEN4.txt.gz.unzipped	C	T	0.02541
-chr7	21898622	chr7:21898622:A:C	rs4487645	A	C	-0.0039	0.644282	0.19092	0.008447	35369	0.34044	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11365_17_TENM4_TEN4.txt.gz.unzipped	A	!	0.34044
-chr7	21899414	chr7:21899414:A:C	rs56333627	A	C	-0.0042	0.621857	0.20631	0.008515	35369	0.31640	/data/protein_GWAS_ferkingstad_EU_2021/files/processed/11365_17_TENM4_TEN4.txt.gz.unzipped	A	C	0.31640
