@@ -6,9 +6,15 @@ library(tidyverse)
 library(stringr)
 library(openxlsx)
 library(scales)
+library(dplyr)
 
-## data ====
-mr_results_full <- read.delim("analysis/003_protein_myeloma/data_mr.txt")
+
+## read in MR results
+mr_results_full <- read.delim("003_protein_myeloma/data_mr.txt")
+
+## read in harmonised data
+harmonised_data <- read.delim("003_protein_myeloma/data_harmonise.txt")
+harmonised_data <- harmonised_data[,c("SNP", "exposure", "outcome")]
 
 ## Restrict protein (deCODE) -> myeloma (UKB-finngen)
 mr_soma_protein_myeloma_all <- subset(mr_results_full, grepl("DECODE", exposure)) 
@@ -26,10 +32,18 @@ mr_olink_protein_finngen_myeloma$b_ci_lower <- mr_olink_protein_finngen_myeloma$
 mr_olink_protein_finngen_myeloma$or <- exp(mr_olink_protein_finngen_myeloma$b)
 mr_olink_protein_finngen_myeloma$or_lower_ci <- exp(mr_olink_protein_finngen_myeloma$b - (1.96 * mr_olink_protein_finngen_myeloma$se)) 
 mr_olink_protein_finngen_myeloma$or_upper_ci <- exp(mr_olink_protein_finngen_myeloma$b + (1.96 * mr_olink_protein_finngen_myeloma$se))
+mr_olink_protein_finngen_myeloma <- merge(
+  harmonised_data, 
+  mr_olink_protein_finngen_myeloma, 
+  by.x = c("exposure", "outcome"), 
+  by.y = c("exposure", "outcome"), 
+  all.y = TRUE
+) %>%
+ distinct()
 #write.xlsx(mr_olink_protein_finngen_myeloma, file = "tables/mr_olink_protein_myeloma_finngen.xlsx", rowNames = F, colNames = T)
 
 ## Read in file to link in protein names for deCODE somalogic panel
-prot_names <- readxl::read_xlsx(path = "data/protein_data/ferkingstad_supplement.xlsx")
+prot_names <- readxl::read_xlsx(path = "Protein_myeloma_MR/ferkingstad_supplement.xlsx")
 colnames(prot_names) <- gsub("\\s", "", colnames(prot_names))
 prot_names <- prot_names[!duplicated(prot_names$Gene), ]
 prot_names <- prot_names[,c("SeqId", "Protein(shortname)", "Protein(fullname)", "Gene", "UniProt")]
@@ -50,7 +64,15 @@ mr_soma_protein_ukb_myeloma_full$b_ci_lower <- mr_soma_protein_ukb_myeloma_full$
 mr_soma_protein_ukb_myeloma_full$or <- exp(mr_soma_protein_ukb_myeloma_full$b)
 mr_soma_protein_ukb_myeloma_full$or_lower_ci <- exp(mr_soma_protein_ukb_myeloma_full$b - (1.96 * mr_soma_protein_ukb_myeloma_full$se)) 
 mr_soma_protein_ukb_myeloma_full$or_upper_ci <- exp(mr_soma_protein_ukb_myeloma_full$b + (1.96 * mr_soma_protein_ukb_myeloma_full$se))
-#write.xlsx(mr_soma_protein_ukb_myeloma_full, file = "tables/mr_soma_protein_myeloma_meta.xlsx", rowNames = F, colNames = T)
+mr_soma_protein_ukb_myeloma_full <- merge(
+  harmonised_data, 
+  mr_soma_protein_ukb_myeloma_full, 
+  by.x = c("exposure", "outcome"), 
+  by.y = c("exposure", "outcome"), 
+  all.y = TRUE
+) %>%
+  distinct()
+write.xlsx(mr_soma_protein_ukb_myeloma_full, file = "tables/mr_soma_protein_myeloma_meta.xlsx", rowNames = F, colNames = T)
 
 ## Plot of deCODE and myeloma (UKB-finngen
 mr_soma_protein_ukb_myeloma_subset <- subset(mr_soma_protein_ukb_myeloma_full, pval < 0.05)
@@ -59,7 +81,7 @@ length(which(mr_soma_protein_ukb_myeloma_subset$b > 0)) ## 20
 length(which(mr_soma_protein_ukb_myeloma_subset$b < 0)) ## 33
 
 mr_soma_protein_ukb_myeloma_subset$Gene <- with(mr_soma_protein_ukb_myeloma_subset,
-                                                reorder(Gene, pval, FUN = function(x) -log10(x)))
+                                                                  reorder(Gene, pval, FUN = function(x) -log10(x)))
 
 #pdf(file = "figures/forest_mr_soma_ukbfinngen_myeloma.pdf", height = 8, width = 10)
 ggplot(mr_soma_protein_ukb_myeloma_subset, aes(x = b, xmin = b_ci_lower, xmax = b_ci_upper, y = Gene)) +
@@ -75,7 +97,8 @@ ggplot(mr_soma_protein_ukb_myeloma_subset, aes(x = b, xmin = b_ci_lower, xmax = 
     axis.title.x = element_text(size = 16),                       
     axis.title.y = element_text(size = 16)                        
   )
-# dev.off()
+
+dev.off()
 
 ## Plot of Olink UKB and myeloma FinnGen
 mr_olink_protein_finngen_myeloma_subset <- subset(mr_olink_protein_finngen_myeloma, pval < 0.05) ## 78
@@ -84,10 +107,10 @@ length(which(mr_olink_protein_finngen_myeloma_subset$b > 0)) ## 39
 length(which(mr_olink_protein_finngen_myeloma_subset$b < 0)) ## 39
 
 # Read in olink file to give full name
-olink_names <- readxl::read_excel("data/protein_data/olink-explore-3072-assay-list-2023-06-08.xlsx")
+olink_names <- readxl::read_excel("003_protein_myeloma/olink-explore-3072-assay-list-2023-06-08.xlsx")
 mr_olink_protein_finngen_myeloma_subset_full <- merge(mr_olink_protein_finngen_myeloma_subset, olink_names, by.x = "Gene", by.y = "Gene name" )
 mr_olink_protein_finngen_myeloma_subset_full$Gene <- with(mr_olink_protein_finngen_myeloma_subset_full,
-                                                          reorder(Gene, pval, FUN = function(x) -log10(x)))
+                                                                  reorder(Gene, pval, FUN = function(x) -log10(x)))
 
 #pdf(file = "figures/forest_mr_olink_finngen_myeloma.pdf", height = 10, width = 10)
 ggplot(mr_olink_protein_finngen_myeloma_subset_full, aes(x = b, xmin = b_ci_lower, xmax = b_ci_upper, y = Gene)) +
@@ -115,13 +138,21 @@ mr_olink_protein_finngen_ukb_myeloma$b_ci_lower <- mr_olink_protein_finngen_ukb_
 mr_olink_protein_finngen_ukb_myeloma$or <- exp(mr_olink_protein_finngen_ukb_myeloma$b)
 mr_olink_protein_finngen_ukb_myeloma$or_lower_ci <- exp(mr_olink_protein_finngen_ukb_myeloma$b - (1.96 * mr_olink_protein_finngen_ukb_myeloma$se)) 
 mr_olink_protein_finngen_ukb_myeloma$or_upper_ci <- exp(mr_olink_protein_finngen_ukb_myeloma$b + (1.96 * mr_olink_protein_finngen_ukb_myeloma$se))
+mr_olink_protein_finngen_ukb_myeloma <- merge(
+  harmonised_data, 
+  mr_olink_protein_finngen_ukb_myeloma, 
+  by.x = c("exposure", "outcome"), 
+  by.y = c("exposure", "outcome"), 
+  all.y = TRUE
+) %>%
+  distinct()
 #write.xlsx(mr_olink_protein_finngen_ukb_myeloma, file = "tables/mr_olink_protein_finngen_ukb_meta_myeloma.xlsx", rowNames = F, colNames = T)
 
 ## Scatter plot of the results using both myeloma GWAS with UKB olink protein exposure
 sensitivity <- merge(mr_olink_protein_finngen_myeloma_subset, mr_olink_protein_finngen_ukb_myeloma, by = "Gene")
 
 #pdf("figures/scatter_olink_myeloma_outcomes_comparison.pdf", height = 6, width = 6)
-ggplot(sensitivity, aes(x = b.x, y = b.y)) +
+gg <- ggplot(sensitivity, aes(x = b.x, y = b.y)) +
   geom_point() +
   geom_errorbar(aes(x = b.x, ymin = b.y - se.y, ymax = b.y + se.y), width = 0.1, alpha = 0.3) +
   geom_errorbarh(aes(y = b.y, xmin = b.x - se.x, xmax = b.x + se.x), height = 0.1, alpha = 0.3) +
@@ -129,7 +160,7 @@ ggplot(sensitivity, aes(x = b.x, y = b.y)) +
   labs(x = "UKB Olink protein and FinnGen myeloma GWAS",
        y = "UKB Olink protein and FinnGen/UKB myeloma GWAS") +
   theme_minimal()
-# dev.off() ## pearson correlation coefficient is 0.77
+dev.off() ## pearson correlation coefficient is 0.77
 
 ## Are all the proteins where p<0.05 using Olink and FinnGen also p<0.05 using the meta-analysis of MM GWAS?
 mr_olink_protein_finngen_ukb_myeloma_subset <- subset(mr_olink_protein_finngen_ukb_myeloma, pval < 0.05)
@@ -156,14 +187,14 @@ length(w) ## 441
 overlap_gene_names <- mr_soma_protein_ukb_myeloma_full$Gene[w]
 
 ## Do these have the same instruments?
-exposure_dat <- read.table("analysis/003_protein_myeloma/data_exposure.txt", header = T)
+exposure_dat <- read.table("003_protein_myeloma/data_exposure.txt", header = T)
 ## Exploring exposure data
-exposure_dat_UKB_EU <-  exposure_dat[grep("UKB-EU", exposure_dat$exposure), ] ## 1860 proteins
+exposure_dat_UKB_EU <-  exposure_dat[grep("UKB-EU", exposure_dat$exposure), ] ## 1860 proteins, median F stat 742
 exposure_dat_UKB_EU <- exposure_dat_UKB_EU  %>%
   mutate(Gene = sub("^(.*?)_.*", "\\1", exposure))
 #write.xlsx(exposure_dat_UKB_EU, file = "tables/exposure_data_ukb_olink.xlsx", colNames = T, rowNames = F)
 
-exposure_dat_deCODE <-  exposure_dat[grep("DECODE", exposure_dat$exposure), ] ## 1192 proteins
+exposure_dat_deCODE <-  exposure_dat[grep("DECODE", exposure_dat$exposure), ] ## 1192 proteins, median F stat 321
 exposure_dat_deCODE <- exposure_dat_deCODE  %>%
   mutate(Gene = sub("^[^_]+_[^_]+_([^_]+).*", "\\1", exposure))
 #write.xlsx(exposure_dat_deCODE, file = "tables/exposure_data_decode_somalogic.xlsx", colNames = T, rowNames = F)
@@ -213,7 +244,7 @@ p_value_text <- ifelse(p_value < 0.001, "< 0.001", sprintf("%.3f", p_value))
 gg + annotate("text", x = max(mr_comparison$b.x), y = max(mr_comparison$b.y),
               label = paste("r =", round(r, 2), ", p =", p_value_text), 
               hjust = 0, vjust = 1)
-# dev.off()
+dev.off()
 
 positives_both <- which(mr_comparison$b.x > 0 & mr_comparison$b.y > 0) ## 167
 negatives_both <- which(mr_comparison$b.x < 0 & mr_comparison$b.y < 0) ## 135
@@ -254,10 +285,10 @@ ggplot(combined_dataframe_prot, aes(x = b, xmin = b_ci_lower, xmax = b_ci_upper,
   ) +
   guides(color = guide_legend(nrow = 2, title = "Study", label.theme = element_text(lineheight = 0.9))) +
   scale_color_discrete(labels = function(labels) sapply(labels, function(label) paste(strwrap(label, width = 20), collapse = "\n")))
-# dev.off()
+dev.off()
 
-## Myeloma -> protein results ====
-mr_myeloma_protein <- read.delim("analysis/004_myeloma_protein/data_mr.txt")
+## Myeloma -> protein results
+mr_myeloma_protein <- read.delim("004_myeloma_protein/data_mr.txt")
 mr_myeloma_protein$or <- exp(mr_myeloma_protein$b)
 mr_myeloma_protein$or_lower_ci <- exp(mr_myeloma_protein$b - (1.96 * mr_myeloma_protein$se)) 
 mr_myeloma_protein$or_upper_ci <- exp(mr_myeloma_protein$b + (1.96 * mr_myeloma_protein$se))
@@ -320,8 +351,8 @@ ggplot(mr_soma_protein_ukb_myeloma_subset, aes(x = b, xmin = b_ci_lower, xmax = 
     axis.text.y = element_text(angle = 0, hjust = 1),  # Rotate the y-axis labels
     axis.text.x = element_text(angle = 45, hjust = 1)  # Rotate the x-axis labels
   )
-# dev.off()
-
+dev.off()
+  
 both_directions_2 <- which(mr_olink_protein_finngen_myeloma_subset$Gene %in% mr_finngen_myeloma_olink_protein_subset$Gene)
 print(mr_olink_protein_finngen_myeloma_subset$Gene[both_directions_2]) ##  [1] "KLK15" 
 
@@ -343,7 +374,7 @@ ggplot(mr_olink_protein_finngen_myeloma_subset_full_rr, aes(x = b, xmin = b_ci_l
     axis.text.y = element_text(angle = 0, hjust = 1),  # Rotate the y-axis labels
     axis.text.x = element_text(angle = 45, hjust = 1)   # Rotate the x-axis labels
   )
-# dev.off()
+dev.off()
 
 ## Combine the forward and reverse MR estimates for the 7 proteins with consistent evidence across both MR analyses
 w <- which(mr_finngen_myeloma_olink_protein$Gene %in% common_prots)
@@ -392,10 +423,10 @@ ggplot(combined_dataframe_prot2, aes(x = b, xmin = b_ci_lower, xmax = b_ci_upper
   ) +
   scale_color_discrete(labels = function(labels) sapply(labels, function(label) paste(strwrap(label, width = 20), collapse = "\n")))
 
-# dev.off()
+dev.off()
 
-## Steiger filtering - forward MR ====
-steiger_prot_myeloma <- read.delim("analysis/003_protein_myeloma/data_steiger.txt")
+## Steiger filtering - forward MR
+steiger_prot_myeloma <- read.delim("003_protein_myeloma/data_steiger.txt")
 
 ## Steiger protein and myeloma direction, deCODE somalogic protien, ukb+finngen myeloma
 steiger_soma_protein_ukb_myeloma <- steiger_prot_myeloma[steiger_prot_myeloma$outcome == "myeloma-UKB-finngen" ,]
@@ -419,8 +450,8 @@ false_steiger_2 <- which(steiger_olink_protein_finngen_myeloma$correct_causal_di
 steiger_olink_protein_finngen_myeloma$exposure[false_steiger_2] # None
 table(steiger_olink_protein_finngen_myeloma$correct_causal_direction) ## All 1622 are true.
 
-## Steiger filtering - reverse MR ====
-steiger_myeloma_prot <- read.delim("analysis/004_myeloma_protein/data_steiger.txt")
+## Steiger filtering - reverse MR 
+steiger_myeloma_prot <- read.delim("004_myeloma_protein/data_steiger.txt")
 
 ## uk myeloma and deCODE somalogic
 steiger_ukb_myeloma <- steiger_myeloma_prot[steiger_myeloma_prot$exposure == "myeloma-UKB-finngen" ,]
@@ -444,7 +475,7 @@ false_steiger_4 <- which(steiger_finngen_myeloma_olink_protein$correct_causal_di
 steiger_finngen_myeloma_olink_protein$exposure[false_steiger_4] # None
 table(steiger_finngen_myeloma_olink_protein$correct_causal_direction) ## All 2930 are true.
 
-## How many are true in both directions?? ====
+## How many are true in both directions??
 steiger_both_ways <- which(steiger_olink_protein_finngen_myeloma$Gene %in% steiger_finngen_myeloma_olink_protein$Gene)
 list <- steiger_olink_protein_finngen_myeloma$Gene[steiger_both_ways] 
 length(list) ## 1616
@@ -464,7 +495,7 @@ steiger_MR_reverse <- which(tab$Gene %in% tab2$Gene)
 tab$Gene[steiger_MR_reverse] ## 78
 
 ## Coloc results
-coloc <- read.delim("analysis/005_colocalization/data_results/001_results-coloc.txt", header = T)
+coloc <- read.delim("coloc/001_results-coloc.txt", header = T)
 
 ## Split coloc results to each study and save
 w <- grepl("DECODE;myeloma-UKB-finngen", coloc$id)
@@ -496,6 +527,6 @@ filtered_coloc2 <- coloc[grepl(paste(common_prots, collapse="|"), coloc$exposure
 filtered_coloc2 <- filtered_coloc2[grepl('european;myeloma-finngen', filtered_coloc2$id), ]
 
 ## Compare results to published study by Wang et al.
-wang <- read.xlsx("data/Wang_MR_results.xlsx")
+wang <- read.xlsx("Protein_myeloma_MR/001_protein_myeloma/Wang_MR_results.xlsx")
 decode_interval <- merge(wang, mr_soma_protein_ukb_myeloma_full, by.x = "Exposures", by.y = "Gene", all.x = T)
 plot(decode_interval$OR_IVW, decode_interval$or)
